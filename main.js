@@ -19,6 +19,6 @@ form_json = form_json.replaceAll(",", "");
 let matches = Array.from(form_json.matchAll(regex));
 let final = matches.map(match => match[1]);
 
-const b64 = btoa(final);
+const encoded = encodeURIComponent(final);
 
-window.open("https://2598671.playcode.io/?b64=" + b64);
+window.open("https://large-type.com/#" + encoded);
