@@ -21,4 +21,4 @@ let final = matches.map(match => match[1]);
 
 const encoded = encodeURIComponent(final);
 
-window.open("https://large-type.com/#" + encoded);
+window.open("https://html.cafe/xb51e0953#" + encoded);
